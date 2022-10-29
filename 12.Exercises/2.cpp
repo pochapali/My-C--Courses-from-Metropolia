@@ -8,16 +8,18 @@ private:
   string name;
 
 public:
-  Employee(int new_id, string new_name);
-  void getEmployee();
+  Employee(int new_id, string new_name) {
+    id = new_id;
+    name = new_name;
+  };
+  void getEmployee() { cout << "Id: " << id << " Name: " << name << endl; };
 };
-Employee::Employee(int new_id, string new_name) {
-  id = new_id;
-  name = new_name;
-};
-void Employee::getEmployee() {
-  cout << "Id: " << id << " Name: " << name << endl;
-};
+// Employee::Employee(int new_id, string new_name){
+
+// };
+// void Employee::getEmployee(){
+
+// };
 
 int main() {
   vector<Employee> empl;
