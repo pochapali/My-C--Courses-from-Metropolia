@@ -1,15 +1,3 @@
 {
-  "makefile.configurations": [
-    {
-      "name": "MyConfiguration",
-
-      "problemMatchers": ["$gcc"],
-
-      "makeArgs": ["any", "other", "args", "you", "want"]
-    }
-  ],
-  "sonarlint.pathToCompileCommands": "${workspaceFolder}/.vscode/compile_commands.json",
-  "files.associations": {
-    "iostream": "cpp"
-  }
+  "sonarlint.pathToCompileCommands": "${workspaceFolder}/.vscode/compile_commands.json"
 }
